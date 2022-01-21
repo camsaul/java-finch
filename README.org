@@ -4,9 +4,9 @@
 
 * Installation
 
-- Clone ~java-finch~ to ~~/.java-finch~
+- Clone ~java-finch~ to ~.java-finch~
 
-- Add ~source ~/.java-finch/setup.sh~ to ~~/.bashrc~ or equivalent
+- Add ~source .java-finch/setup.sh~ to ~.bashrc~ or equivalent
 
 * Usage
 
