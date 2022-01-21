@@ -1,0 +1,23 @@
+* Prereqs
+
+- [[https://github.com/babashka/babashka][Babashka]]
+
+* Installation
+
+- Clone ~java-finch~ to ~~/.java-finch~
+
+- Add ~source ~/.java-finch/setup.sh~ to ~~/.bashrc~ or equivalent
+
+* Usage
+
+** List remote JDKs:
+
+#+BEGIN_SRC
+finch list
+#+END_SRC
+
+** Use a JDK
+
+#+BEGIN_SRC shell
+finch use :adoptium 17.0.1+12
+#+END_SRC

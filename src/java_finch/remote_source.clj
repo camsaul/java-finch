@@ -62,7 +62,7 @@
                        url-info)))
     ;; TODO -- don't hardcode this.
     (let [java-home (str dir "/" "jdk-17.0.1+12")]
+      (println "Writing env vars to /home/cam/.java-finch/.env.sh")
       (spit "/home/cam/.java-finch/.env.sh"
-            (str "#! /bin/sh\n"
-                 (format "export JAVA_HOME=\"%s\"\n" java-home)
+            (str (format "export JAVA_HOME=\"%s\"\n" java-home)
                  (format "export PATH=\"%s:$PATH\"\n" (str java-home "/bin")))))))
